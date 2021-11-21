@@ -75,10 +75,16 @@ nav .logo {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     max-width: 100%;
-    padding: 41px 0 40px 0;
+    padding: 40px 140px;
   
 }
 
+.footer .col {
+    padding: 0;
+}
+.social-link{
+    padding: 0 15px;
+}
 @media (max-width: 900px) {
  
     nav{
