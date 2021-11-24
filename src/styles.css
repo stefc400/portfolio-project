@@ -3,8 +3,6 @@
     --dark-violet: #662eed;
 }
 body {  
-    font-family: var(--default-font-family);
-    font-weight: 700;
     max-width: 100%;
 }
 nav{
@@ -21,15 +19,16 @@ nav li {
     list-style: none;
 }
 
-nav a.active {
-    color: var(--dark-violet);
-}
-
 nav a {
     color: #272044;
     text-decoration: none;
     transition: all 100ms ease-in-out;
 }
+
+nav a.active {
+    color: var(--dark-violet);
+}
+
 nav a:hover {
    color: var(--dark-violet);
    text-decoration: underline;
@@ -38,6 +37,132 @@ nav a:hover {
 nav .logo {
     max-width: 150px;
     max-height: 40px;
+}
+
+.content h1 {
+    font-family: var(--default-font-family);
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    line-height: 98px;
+    color: #272142;
+}
+
+.content h2 {
+    font-family: var(--default-font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    color: #272142;
+}
+
+.content h3{
+    font-family: var(--default-font-family);
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 49px;
+    color: #272142;
+}
+.content h4{
+    font-family: var(--default-font-family);
+    font-weight: 700;
+    color: #272142;  
+}
+
+.content.about-page h4 {
+ font-size: 24px;
+ line-height: 33px;
+}
+.content.recipe-page h4 {
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.content h5 {
+    font-family: var(--default-font-family);
+    font-weight: 700;
+}
+.content.recipe-page h5 {
+   font-size: 24px;
+   line-height: 33px;
+}
+.content h6{
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.content.contact-page h6 {
+    color: #662EED;
+    font-weight: 700;
+}
+
+.content.recipe-page h6 {
+    color: #F65282;
+    font-weight: 800;
+}
+
+.content p {
+    font-family: var(--default-font-family);
+    line-height: 30px;  
+}
+
+.content.recipe-page p, .content .about-description p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-description .social-links p {
+font-size: 18px;
+font-weight: 700;
+}
+
+.content .favorite-recipe p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.content.contact-page p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.content.about-page h1 {
+padding: 26px 557px 126px 557px;
+}
+
+.content.about-page .about-description img {
+    margin: 0 40px 100px 240px;
+}
+.content.about-page h2 {
+    margin-right: 240px;
+    padding: 36px 0;
+}
+.content.about-page h3 {
+    padding: 0 591px 41px 591px;
+}
+.content.about-page .about-description p {
+    margin: 0 240px 52px 0;
+}
+.content.about-page i {
+    padding-left: 30px;
+}
+
+.content.about-page .social-links {
+    margin: 0 478px 36px 0;
+}
+
+.content.about-page .favorite-recipe {
+    margin: 0 140px 100px 140px;
+}
+
+.content.about-page .favorite-recipe img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.content.about-page .favorite-recipe h4 {
+    margin-bottom: 20px
 }
 
 .hero {
@@ -66,7 +191,7 @@ nav .logo {
     font-size: 28px;
     margin: 20px 0 50px 0
 }
-.card-img-overlay {
+.homepage-header {
     padding: 46px;
 }
 
@@ -88,13 +213,14 @@ nav .logo {
 .social-link{
     padding: 0 15px;
 }
+
 @media (max-width: 1428px) {
  
     nav{
         padding: 12px 52px;
     }
 
-    .card-img-overlay {
+    .homepage-header {
         padding: 23px 0;
     }
 
@@ -137,7 +263,7 @@ nav .logo {
     .hero p {
         font-size: 12px;
     }
-    .card-img-overlay {
+    .homepage-header {
         padding: 8px 0;
     }
 
@@ -162,7 +288,7 @@ nav .logo {
         font-size: 8px;
         line-height: 18px;
     }
-    .card-img-overlay {
+    .homepage-header {
         padding: 4px 0;
     }
 
