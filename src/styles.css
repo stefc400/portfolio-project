@@ -99,6 +99,7 @@ nav .logo {
 .content.contact-page h6 {
     color: #662EED;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .content.recipe-page h6 {
@@ -127,6 +128,15 @@ font-weight: 700;
 .content.contact-page p {
     font-size: 24px;
     font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.contact-information {
+    margin-top: 50px;
+}
+
+.contact-information i {
+   font-weight: 900;
 }
 
 .content.about-page h1 {
@@ -201,6 +211,18 @@ margin-top: 38px;
 
 .step-2{
     margin-top: 40px;
+}
+.content.contact-page {
+    margin: 0 100px 100px 167px;
+}
+.content.contact-page h1 {
+    padding: 53px 0 126px 0;
+}
+.content.contact-page img {
+    max-width: 460px;
+}
+.content.contact-page i {
+    margin-right: 30px;
 }
 .hero {
     margin-bottom: 100px; 
