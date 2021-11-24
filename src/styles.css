@@ -12,11 +12,14 @@ nav ul {
 padding: 0;
 margin: 0;
 }
+
+li {
+    list-style: none;
+}
 nav li {
   margin-left: 15px;
   line-height: 42px;
     display: inline;
-    list-style: none;
 }
 
 nav a {
@@ -108,17 +111,16 @@ nav .logo {
     line-height: 30px;  
 }
 
-.content.recipe-page p, .content .about-description p {
+.content.recipe-page p, .about-description p {
     font-size: 18px;
     font-weight: 400;
 }
 
 .about-description .social-links p {
-font-size: 18px;
 font-weight: 700;
 }
 
-.content .favorite-recipe p {
+.favorite-recipe p {
     font-size: 16px;
     font-weight: 400;
 }
@@ -131,7 +133,7 @@ font-weight: 700;
 padding: 26px 557px 126px 557px;
 }
 
-.content.about-page .about-description img {
+.about-description img {
     margin: 0 40px 100px 240px;
 }
 .content.about-page h2 {
@@ -141,7 +143,7 @@ padding: 26px 557px 126px 557px;
 .content.about-page h3 {
     padding: 0 591px 41px 591px;
 }
-.content.about-page .about-description p {
+.about-description p {
     margin: 0 240px 52px 0;
 }
 .content.about-page i {
@@ -152,19 +154,54 @@ padding: 26px 557px 126px 557px;
     margin: 0 478px 36px 0;
 }
 
-.content.about-page .favorite-recipe {
+.favorite-recipe {
     margin: 0 140px 100px 140px;
 }
 
-.content.about-page .favorite-recipe img {
+.favorite-recipe img {
     margin-bottom: 20px;
     width: 100%;
 }
 
-.content.about-page .favorite-recipe h4 {
+.favorite-recipe h4 {
     margin-bottom: 20px
 }
+.content.recipe-page {
+    margin: 0 413px 150px 267px;
+}
+.content.recipe-page hr {
+   border: 1px dashed #67D5D2;
+}
 
+.content.recipe-page h1 {
+    padding: 53px 0 66px 0;
+}
+
+.content.recipe-page img {
+    margin: 60px 0 42px 0;
+}
+.content.recipe-page h4 {
+    margin-bottom: 32px;
+}
+
+.content.recipe-page h5 {
+    margin-bottom: 25px;
+}
+
+.content.recipe-page h6 {
+    margin-bottom: 14px;
+}
+
+.ingredients{
+margin-top: 38px;
+}
+.steps {
+    margin-top: 38px;
+}
+
+.step-2{
+    margin-top: 40px;
+}
 .hero {
     margin-bottom: 100px; 
 }
