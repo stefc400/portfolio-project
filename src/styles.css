@@ -14,6 +14,7 @@ li {
 
 nav{
     padding: 51px 140px 62px 140px;
+    background-color:#F9F7FE;
 }
 
 nav ul {
@@ -84,11 +85,6 @@ nav .logo {
     
 }
 
-.recipe-home p {
-    font-size: 28px;
-    margin: 20px 0 50px 0
-}
-
 .recipe-home h5 {
     font-size: 28px;
     line-height: 38px;
@@ -143,11 +139,6 @@ nav .logo {
     line-height: 30px;  
 }
 
-.content.about-page h4 {
-    font-size: 24px;
-    line-height: 33px;
-}
-
 .content.about-page h1 {
     padding: 26px 0  126px 0;
     }
@@ -191,6 +182,8 @@ font-weight: 700;
 }
 
 .favorite-recipe h4 {
+    font-size: 24px;
+    line-height: 33px;
     margin-bottom: 20px
 }
 
@@ -214,11 +207,9 @@ font-weight: 700;
     margin: 60px 0 42px 0;
 }
 .content.recipe-page h4 {
+    font-size: 36px;
+    line-height: 49px;
     margin-bottom: 32px;
-}
-
-.content.recipe-page h5 {
-    margin-bottom: 25px;
 }
 
 .content.recipe-page h6 {
@@ -236,12 +227,8 @@ margin-top: 38px;
     margin-top: 40px;
 }
 
-.content.recipe-page h4 {
-    font-size: 36px;
-    line-height: 49px;
-}
-
 .content.recipe-page h5 {
+    margin-bottom: 25px;
    font-size: 24px;
    line-height: 33px;
 }
@@ -258,7 +245,7 @@ margin-top: 38px;
 }
 
 
-.content.contact-page p {
+.contact-information p {
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 50px;
@@ -266,14 +253,16 @@ margin-top: 38px;
 
 .contact-information {
     margin-top: 50px;
+    padding: 0;
 }
 
 .contact-information i {
    font-weight: 900;
+   margin-right: 10px;
 }
 
 .content.contact-page {
-    margin: 0 0 100px 167px;
+    margin: 0 167px 100px 167px;
 }
 .content.contact-page h1 {
     padding: 53px 0 126px 0;
@@ -282,13 +271,7 @@ margin-top: 38px;
     max-width: 460px;
     margin-right: 16px;
 }
-.content.contact-page i {
-    margin-right: 30px;
-}
 
-.content.contact-page ul {
-    padding: 0;
-}
 .footer{
     background-color:#F9F7FE;
     font-family: 'Roboto', sans-serif;
@@ -316,92 +299,214 @@ margin-top: 38px;
     padding: 0 15px;
 }
 
-@media (max-width: 1428px) {
- 
-    nav{
-        padding: 40px 140px ;
-    }
-
-    .homepage-header {
-        padding: 23px 0;
-    }
-
-    .hero {
-        margin-bottom: 22px;
-    }
-
-    .hero h1 {
-        font-size: 46px;
-        
-    }
-
-    .hero p {
-        font-size: 18px;
-    }
-    .recipe-home p {
-        font-size: 18px;
-    }
-    .footer p {
-        font-size: 12px;
-    }
-    .footer{
+@media (max-width: 1024px) {
     
-        padding: 40px 60px;
-      
-    }
-    
-    .social-link{
-        padding: 0 5px;
+nav{
+    padding: 25px 80px 30px 80px;
+}
+
+.homepage-header {
+    padding: 16px 0;
+}
+
+.hero {
+    margin-bottom: 40px; 
+}
+
+.hero h1{
+    font-size: 42px;
+    line-height: 68px;
+ }
+
+.hero p {
+    font-size: 20px;
+    padding: 0 39px;
+}
+   
+   .recipe-home h5 {
+       font-size: 20px;
+       line-height: 38px;
+       margin: 10px 0 50px 0;
+   }
+   
+   .content h1 {
+    font-size: 68px;
+}
+
+.content h2 {
+    font-size: 52px;
+}
+   .content.about-page h1 {
+    padding: 26px 0 64px 0;
+}
+
+.content.about-page h3 {
+    padding: 80px 0 31px 0;
+}
+.about-description p {
+    margin: 0 40px 52px 0;
+}
+
+.content.recipe-page {
+    margin: 0 50px 50px 50px;
+}
+
+.content.contact-page {
+    margin: 0 50px 50px 50px;
+}
+
+.footer {
+    padding: 40px 80px;
 }
 }
 
-
-@media (max-width: 900px) {
-    .hero h1 {
-        font-size: 26px;
-        line-height: 68px;
+@media (max-width: 768px) {
+   
+    .content h2 {
+        font-size: 42px;
     }
-
-    .hero p {
-        font-size: 12px;
-    }
-    .homepage-header {
+    .content.about-page h2 {
         padding: 8px 0;
     }
-
-    .card-title {
-        margin-bottom: 0;
+    .content.about-page h3 {
+        padding: 55px 0 31px 0;
     }
-}
-
-@media (max-width: 633px) {
+    .about-description p {
+        margin: 0 15px 32px 0;
+    }
+    .favorite-recipe {
+        margin: 0 30px 50px 30px;
+    }
+    .favorite-recipe p {
+        font-size: 14px;
+    }
+    .content.recipe-page img {
+        max-width: 650px;
+        display: block;
+        margin: 50px auto;
+    }
+    .content.recipe-page h1 {
+        padding: 33px 0 36px 0;
+    }
+    .content.contact-page h1 {
+        padding: 53px 0 56px 0;
+    }
+    .footer{
+        padding: 40px 50px;
+    }
     
-    .recipe-home p {
-        font-size: 12px;
-        margin: 16px 0 22px 0
+    .footer p {
+        font-size: 14px;
     }
 
-    .hero h1 {
-        font-size: 16px;
-        line-height: 32px;
+    .footer .social-link{
+        padding: 0 8px;
     }
-
-    .hero p {
-        font-size: 8px;
-        line-height: 18px;
-    }
-    .homepage-header {
-        padding: 4px 0;
-    }
-
 }
 
-@media (max-width: 400px) {
-    nav a {
-        font-size: 12px;
-    }
+@media (max-width:540px) {
+    
+nav{
+    padding: 25px 40px 10px 40px;
+}    
 
-    nav img {
-      display: none;
+nav .logo {
+ margin-bottom: 25px;
+ left: 12px;
+ max-width: 80px;
+}
+.hero h1{
+    font-size: 28px;
+    line-height: 30px;
+ }
+ 
+.hero p {
+    font-size: 12px;
+}
+.recipe-home {
+    padding: 0 40px;
+}
+.recipe-home h5 {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 0 25px 0;
+}
+.content h1 {
+    font-size: 38px;
+}
+.content.about-page h1 {
+    padding-bottom: 0;
+}
+.content.about-page h3 {
+    padding: 20px 0 31px 0;
+}
+.about-description {
+    padding: 40px;
+    text-align: center;
+}
+
+.favorite-recipe h4 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.favorite-recipe p {
+    font-size: 12px;
+    line-height: 20px;
+}
+.content.recipe-page img {
+    max-width: 450px;
+}
+.content.recipe-page h1 {
+    padding: 33px 0 0 0;
+}
+.content.recipe-page h4 {
+    font-size: 26px;
+    line-height: 49px;
+}
+.content.recipe-page h5 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 23px;
+}
+.ingredients {
+    margin-top: 18px;
+}
+.steps {
+    margin-top: 18px;
+}
+.content.contact-page h1 {
+    padding: 0;
+}
+.contact-information {
+    margin-top: 20px;
+}
+.contact-information p {
+    font-size: 18px;
+}
+.contact-information h6 {
+font-size: 14px;
+}
+.footer{
+    padding: 10px 30px;
+}
+.footer img {
+    max-width: 80px;
+}
+.footer p {
+    font-size: 11px;
+    text-align: left;
+}
+
+.footer .social-link{
+    padding: 0 5px;
+    font-size: 12px;
+}
+}
+
+@media (max-width:414px) {
+   
+    .footer .social-link{
+        padding: 0 2px;
+        font-size: 10px;
     }
 }
